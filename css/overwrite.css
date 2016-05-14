@@ -1,0 +1,299 @@
+/* ==============================================================
+
+Template name : Bootsnav - Multi Purpose Header
+Categorie : Bootstrap Menu in CSS
+Author : adamnurdin01
+Version : v1.0.0
+Created : 09 Mei  2016
+Last update : 09 Mei  2016
+
+============================================================== */
+
+/*
+Typography
+=========================== */
+html,body {
+    width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+	font-size:14px;
+	line-height:24px;
+	color:#6f6f6f;
+}
+
+a{
+    color: #6f6f6f;
+}
+
+a,
+a:active,
+a:focus,
+a:hover{
+	outline:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#3f3f3f;
+	text-transform:uppercase;
+	margin:0 0 15px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h1{
+	font-size:48px;
+	line-height:52px;
+}
+
+h2{
+	font-size:36px;
+	line-height:48px;
+}
+
+h3{
+	font-size:30px;
+	line-height:36px;
+}
+
+h4{
+	font-size:24px;
+	line-height:30px;
+}
+
+h5{
+	font-size:18px;
+	line-height:24px;
+}
+
+h6{
+	font-size:14px;
+	line-height:18px;
+}
+
+p{
+	margin-bottom:20px;
+}
+
+ol,
+ul{
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.check-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.check-list li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.check-list li:before{
+    font-family: 'FontAwesome';
+    content: "\f046";
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.no-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.no-list li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.no-list li .fa{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+/*
+Form
+=========================== */
+.form-group{
+    margin-bottom: 15px;
+}
+
+.btn{
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-dark{
+    background-color: #222;
+    border: solid 1px #222;
+    color: #fff;
+}
+
+.btn-dark:hover,
+.btn-dark:focus{
+    background-color: #333;
+    border: solid 1px #222;
+    color: #fff;
+}
+
+/*
+btn on cart dropdown -------- */
+ul.cart-list > li > a.btn-cart{
+    padding: 10px 15px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+    color: #fff  !important;
+}
+
+.form-control:focus,
+.form-control:hover,
+.form-control{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    -webkit-box-shadow: 0px 0px 0px;
+    -o-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+.form-control{
+    padding: 10px 15px;
+    height: 45px;
+}
+
+/*
+Navbar
+=========================== */
+/* Navbar Atribute ------*/
+.attr-nav > ul > li > a{
+    padding: 28px 15px;
+}
+
+@media (min-width: 1024px) {
+    /* Navbar General ------*/
+    nav.navbar ul.nav > li > a{
+        padding: 30px 15px;
+    }
+    
+    nav.navbar .navbar-brand{
+        margin-top: 0;
+    }
+    
+    nav.navbar .navbar-brand img.logo{
+        width: 50px;
+    }
+
+    nav.navbar .navbar-brand{
+        margin-top: 0;
+    }
+    
+    nav.navbar .navbar-brand img.logo{
+        width: 50px;
+    }
+    
+    nav.navbar li.dropdown ul.dropdown-menu{
+        border-top: solid 5px;
+    }
+    
+    /* Navbar Center ------*/
+    nav.navbar-center .navbar-brand{
+        margin: 0 !important;
+    }
+    
+    /* Navbar Brand Top ------*/
+    nav.navbar-brand-top .navbar-brand{
+        margin: 10px !important;
+    }
+    
+    /* Navbar Full ------*/
+    nav.navbar-full .navbar-brand{
+        position: relative;
+        top: -15px;
+    }
+    
+    /* Navbar Sidebar ------*/
+    nav.navbar-sidebar ul.nav,
+    nav.navbar-sidebar .navbar-brand{
+        margin-bottom: 50px;
+    }
+    
+    nav.navbar-sidebar ul.nav > li > a{
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 992px) {
+    /* Navbar General ------*/
+    nav.navbar .navbar-brand{
+        margin-top: 0;
+        position: relative;
+        top: -2px;
+    }
+    
+    nav.navbar .navbar-brand img.logo{
+        width: 30px;
+    }
+    
+    .attr-nav > ul > li > a{
+        padding: 16px 15px 15px;
+    }
+    
+    /* Navbar Mobile slide ------*/
+    nav.navbar.navbar-mobile ul.nav > li > a{
+        padding: 15px 15px;
+    }
+    
+    nav.navbar.navbar-mobile ul.nav ul.dropdown-menu > li > a{
+        padding-right: 15px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+    
+    nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu .title{
+        padding-right: 30px !important;
+        padding-top: 13px !important;
+        padding-bottom: 13px !important;
+    }
+    
+    nav.navbar.navbar-mobile ul.nav ul.dropdown-menu .col-menu ul.menu-col li a{
+        padding-top: 13px !important;
+        padding-bottom: 13px !important;
+    }
+    
+    /* Navbar Full ------*/
+     nav.navbar-full .navbar-brand{
+        top: 0;
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,421 @@
+/* ==============================================================
+
+Template name : Bootsnav - Multi Purpose Header
+Categorie : Bootstrap Menu in CSS
+Author : adamnurdin01
+Version : v1.0.0
+Created : 09 Mei  2016
+Last update : 09 Mei  2016
+
+============================================================== */
+
+/*
+General
+=========================== */
+.section{
+    padding: 70px 0;
+    position: relative;
+}
+
+.gray{
+    background-color: #f5f5f5;
+}
+
+.section .heading{
+    text-align: center;
+}
+
+.section .heading .title{
+    position: relative;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+}
+
+.section .heading .title strong{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section .heading .title:before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px;
+    border-bottom: solid 3px #e67e22;
+}
+
+.test-height{
+    height: 1800px;
+}
+
+/*
+Home
+=========================== */
+.section.home{
+    padding: 100px 0;
+    background-image: url(../images/bg/home.jpg);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section.home.white{
+    background-image: url(../images/bg/home1.jpg);
+}
+
+.section.home.dark{
+    background-image: url(../images/bg/home2.jpg);
+}
+
+.section.home.fixed-demo{
+    padding-top: 130px;
+}
+
+.section.home.fixed-demo2{
+    padding-top: 160px;
+}
+
+.section.home .heading-home{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.section.home .heading-home .title{
+    color: white;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.section.home.dark .heading-home .title{
+    color: #3f3f3f;
+}
+
+.section.home .heading-home p{
+    margin-bottom: 0;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+
+.section.home .overlay{
+    display: block;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/*
+Menu Demo
+=========================== */
+ul.menu-demo{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.menu-demo li{
+    margin-bottom: 15px;
+}
+
+ul.menu-demo li a{
+    font-weight: bold;
+    display: block;
+    padding: 15px 25px;
+    background-color: #efefef;
+    -moz-box-shadow: 0px 2px 3px #eee;
+    -webkit-box-shadow: 0px 2px 3px #eee;
+    -o-box-shadow: 0px 2px 3px #eee;
+    box-shadow: 0px 2px 3px #eee;
+    border: solid 1px #e0e0e0;
+    color: #6f6f6f;
+}
+
+ul.menu-demo li a:focus,
+ul.menu-demo li a:hover{
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*
+Footer
+=========================== */
+footer{
+    text-align: center;
+    padding: 65px 15px;
+    background-color: #222;
+}
+
+footer a:hover,
+footer a:focus,
+footer a{
+    color: #e67e22;
+    text-decoration: none;
+}
+
+/*
+Clear spacer
+=========================== */
+.margin-clear{
+	margin:0 !important;
+}
+
+.padding-clear{
+	padding:0 !important;
+}
+
+.margintop-clear{
+	margin-top:0 !important;
+}
+
+.paddingtop-clear{
+	padding-top:0 !important;
+}
+
+.marginbot-clear{
+	margin-bottom:0 !important;
+}
+
+.paddingbot-clear{
+	padding-bottom:0 !important;
+}
+
+.marginleft-clear{
+	margin-left:0 !important;
+}
+
+.paddingleft-clear{
+	padding-left:0 !important;
+}
+
+.marginright-clear{
+	margin-right:0 !important;
+}
+
+.paddingright-clear{
+	padding-right:0 !important;
+}
+
+.padding-top40{
+	padding-top:40px !important;
+}
+
+.padding-topt60{
+	padding-top:60px !important;
+}
+
+.padding-top70{
+	padding-top:70px !important;
+}
+
+.padding-bot5{
+	padding-bottom:5px !important;
+}
+
+.padding-bot10{
+	padding-bottom:10px !important;
+}
+
+.padding-bot15{
+	padding-bottom:15px !important;
+}
+
+.padding-bot20{
+	padding-bottom:20px !important;
+}
+
+.padding-bot30{
+	padding-bottom:30px !important;
+}
+
+.padding-bot40{
+	padding-bottom:40px !important;
+}
+
+.padding-bot50{
+	padding-bottom:50px !important;
+}
+
+.padding-bot60{
+	padding-bottom:60px !important;
+}
+
+.padding-bot70{
+	padding-bottom:70px !important;
+}
+
+.margin-mintop10{
+	margin-top:-10px !important;
+}
+
+.margin-mintop20{
+	margin-top:-20px !important;
+}
+
+.margin-mintop30{
+	margin-top:-30px !important;
+}
+
+.margin-mintop60{
+	margin-top:-60px !important;
+}
+
+.margin-mintop110{
+	margin-top:-110px !important;
+}
+
+.margin-minbot10{
+	margin-bottom:-10px !important;
+}
+
+.margin-minbot20{
+	margin-bottom:-20px !important;
+}
+
+.margin-minbot30{
+	margin-bottom:-30px !important;
+}
+
+.margin-minbot60{
+	margin-bottom:-60px !important;
+}
+
+/*
+Custom left right spacer
+=========================== */
+.margin-left10{
+	margin-left:10px !important;
+}
+
+.margin-right10{
+	margin-right:10px !important;
+}
+
+.margin-left20{
+	margin-left:20px !important;
+}
+
+.margin-right20{
+	margin-right:20px !important;
+}
+
+/*
+Custom top spacer
+=========================== */
+.margintop5{
+	margin-top:5px !important;
+}
+
+.margintop10{
+	margin-top:10px !important;
+}
+
+.margintop15{
+	margin-top:15px !important;
+}
+
+.margintop20{
+	margin-top:20px !important;
+}
+
+.margintop25{
+	margin-top:25px !important;
+}
+
+.margintop30{
+	margin-top:30px !important;
+}
+
+.margintop35{
+	margin-top:35px !important;
+}
+
+.margintop40{
+	margin-top:40px !important;
+}
+
+.margintop45{
+	margin-top:45px !important;
+}
+
+.margintop50{
+	margin-top:50px !important;
+}
+
+.margintop55{
+	margin-top:55px !important;
+}
+
+.margintop60{
+	margin-top:60px !important;
+}
+
+.margintop80{
+	margin-top:80px !important;
+}
+
+/*
+Custom bottom spacer
+=========================== */
+.marginbot5{
+	margin-bottom:5px !important;
+}
+
+.marginbot10{
+	margin-bottom:10px !important;
+}
+
+.marginbot15{
+	margin-bottom:15px !important;
+}
+
+.marginbot20{
+	margin-bottom:20px !important;
+}
+
+.marginbot25{
+	margin-bottom:25px !important;
+}
+
+.marginbot30{
+	margin-bottom:30px !important;
+}
+
+.marginbot35{
+	margin-bottom:35px !important;
+}
+
+.marginbot40{
+	margin-bottom:40px !important;
+}
+
+.marginbot45{
+	margin-bottom:45px !important;
+}
+
+.marginbot50{
+	margin-bottom:50px !important;
+}
+
+.marginbot55{
+	margin-bottom:55px !important;
+}
+
+.marginbot60{
+	margin-bottom:60px !important;
+}
+
+.marginbot80{
+	margin-bottom:80px !important;
+}
