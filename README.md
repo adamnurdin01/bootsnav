@@ -16,7 +16,7 @@ bootstrap/
 ```
 
 ## Credit
-```
+
 Framework Based
 - Bootstrap V.3 - http://getbootstrap.com/
 
@@ -33,4 +33,3 @@ Javascript
 
 CSS
 -  Animate - https://daneden.github.io/animate.css/
-```
