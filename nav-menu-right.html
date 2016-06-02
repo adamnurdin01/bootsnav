@@ -34,10 +34,6 @@
     
     <!-- Color -->
     <link href="skins/color.css" rel="stylesheet">
-    
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,12 +42,11 @@
     <![endif]-->
     
 </head>
-<body>
+<body>     
         
     <!-- Start Navigation -->
-    <nav class="navbar navbar-default navbar-full bootsnav">
-        <div class="container">
-
+    <nav class="navbar navbar-default bootsnav">
+        <div class="container">      
             <!-- Start Header Navigation -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
@@ -63,17 +58,15 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav" data-in="zoomIn" data-out="zoomOut">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>                    
+                    <li><a href="#">About Us</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact Us</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
-        </div>    
+        </div>   
     </nav>
     <!-- End Navigation -->
 
@@ -82,8 +75,8 @@
     <!-- Start Home -->
     <div class="pageheader">
         <div class="container">
-            <h2 class="title">Navbar Full Screen</h2>
-            <p>Navigation menu with fullscreen layout</p>
+            <h2 class="title">Navbar Right Menu</h2>
+            <p>Navigation menu on right</p>
         </div>
     </div>
     <!-- End Home -->
@@ -91,36 +84,33 @@
     <div class="clearfix"></div>
 
     <!-- Start Content -->
-    <div class="section gray padding-bot50">
+    <div class="section gray">
         <div class="container">
             <h6 class="margin-top20">HTML</h6>
 <pre style='color:#000000;background:#ffffff;'>
 
-
-<div style="border: solid 2px #ddd; background:#f9f9f9;margin-top:-15px;margin-bottom:-15px;"><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>nav</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar navbar-default navbar-full bootsnav"</span><span style='color:#a65700; '>></span></div>
-    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"container"</span><span style='color:#a65700; '>></span>
-
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>nav</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar navbar-default bootsnav"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"container"</span><span style='color:#a65700; '>></span>      
         <span style='color:#696969; '>&lt;!-- Start Header Navigation --></span>
         <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-header"</span><span style='color:#a65700; '>></span>
             <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>button</span><span style='color:#274796; '> </span><span style='color:#074726; '>type</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"button"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-toggle"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-toggle</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"collapse"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-</span><span style='color:#074726; '>target</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#navbar-menu"</span><span style='color:#a65700; '>></span>
                 <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fa fa-bars"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
             <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>button</span><span style='color:#a65700; '>></span>
-            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-brand"</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#brand"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>img</span><span style='color:#274796; '> </span><span style='color:#074726; '>src</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"images/brand/logo-black.png"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"logo"</span><span style='color:#274796; '> </span><span style='color:#074726; '>alt</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>""</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-brand"</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#brand"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>img</span><span style='color:#274796; '> </span><span style='color:#074726; '>src</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"LOGO_ADDRESS"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"logo"</span><span style='color:#274796; '> </span><span style='color:#074726; '>alt</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>""</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span>
         <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>
         <span style='color:#696969; '>&lt;!-- End Header Navigation --></span>
 
         <span style='color:#696969; '>&lt;!-- Collect the nav links, forms, and other content for toggling --></span>
         <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"collapse navbar-collapse"</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-menu"</span><span style='color:#a65700; '>></span>
-            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"nav navbar-nav"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-in</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"zoomIn"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-out</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"zoomOut"</span><span style='color:#a65700; '>></span>
-                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Home<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
-                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>About<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+            <div style="border: solid 2px #ddd; background:#f9f9f9;margin-top:-15px;margin-bottom:-15px;">            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"nav navbar-nav navbar-right"</span><span style='color:#a65700; '>></span></div>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Home<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>                    
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>About Us<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
                 <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Services<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
                 <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Portfolio<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
-                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Blog<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
-                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Shop<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Contact Us<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
             <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
         <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span><span style='color:#696969; '>&lt;!-- /.navbar-collapse --></span>
-    <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>    
+    <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>   
 <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>nav</span><span style='color:#a65700; '>></span>
 </pre>
         </div>
@@ -149,7 +139,7 @@
     
 	<!-- START JAVASCRIPT -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Place this tag in your head or just before your close body tag. -->

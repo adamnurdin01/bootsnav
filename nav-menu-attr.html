@@ -34,10 +34,6 @@
     
     <!-- Color -->
     <link href="skins/color.css" rel="stylesheet">
-    
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -46,11 +42,20 @@
     <![endif]-->
     
 </head>
-<body>
-    
+<body>     
+        
     <!-- Start Navigation -->
-    <nav class="navbar navbar-default navbar-brand-top bootsnav">
-        <div class="container">
+    <nav class="navbar navbar-default bootsnav">
+        <div class="container">  
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>        
+            <!-- End Atribute Navigation -->
 
             <!-- Start Header Navigation -->
             <div class="navbar-header">
@@ -63,103 +68,15 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
-                    <li><a href="#">Home</a></li>
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="#">Home</a></li>                    
                     <li><a href="#">About Us</a></li>
-                    <li class="dropdown megamenu-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Megamenu</a>
-                        <ul class="dropdown-menu megamenu-content" role="menu">
-                            <li>
-                                <div class="row">
-                                    <div class="col-menu col-md-3">
-                                        <h6 class="title">Title Menu One</h6>
-                                        <div class="content">
-                                            <ul class="menu-col">
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- end col-3 -->
-                                    <div class="col-menu col-md-3">
-                                        <h6 class="title">Title Menu Two</h6>
-                                        <div class="content">
-                                            <ul class="menu-col">
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- end col-3 -->
-                                    <div class="col-menu col-md-3">
-                                        <h6 class="title">Title Menu Three</h6>
-                                        <div class="content">
-                                            <ul class="menu-col">
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>    
-                                    <div class="col-menu col-md-3">
-                                        <h6 class="title">Title Menu Four</h6>
-                                        <div class="content">
-                                            <ul class="menu-col">
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                                <li><a href="#">Custom Menu</a></li>
-                                            </ul>
-                                        </div>
-                                    </div><!-- end col-3 -->
-                                </div><!-- end row -->
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Dropdowns</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Custom Menu</a></li>
-                            <li><a href="#">Custom Menu</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Custom Menu</a></li>
-                                    <li><a href="#">Custom Menu</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Sub Menu</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                            <li><a href="#">Custom Menu</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Custom Menu</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Custom Menu</a></li>
-                            <li><a href="#">Custom Menu</a></li>
-                            <li><a href="#">Custom Menu</a></li>
-                            <li><a href="#">Custom Menu</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="#">Services</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
-        </div>    
+        </div>   
     </nav>
     <!-- End Navigation -->
 
@@ -168,8 +85,8 @@
     <!-- Start Home -->
     <div class="pageheader">
         <div class="container">
-            <h2 class="title">Navbar Top Brand</h2>
-            <p>Navigation menu with brand on top</p>
+            <h2 class="title">Navbar Attribute</h2>
+            <p>Navigation menu with attributes</p>
         </div>
     </div>
     <!-- End Home -->
@@ -182,9 +99,18 @@
             <h6 class="margin-top20">HTML</h6>
 <pre style='color:#000000;background:#ffffff;'>
 
-
-<div style="border: solid 2px #ddd; background:#f9f9f9;margin-top:-15px;margin-bottom:-15px;"><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>nav</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar navbar-default navbar-brand-top bootsnav"</span><span style='color:#a65700; '>></span></div>
-    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"container"</span><span style='color:#a65700; '>></span>      
+<span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>nav</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar navbar-default bootsnav"</span><span style='color:#a65700; '>></span>
+    <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"container"</span><span style='color:#a65700; '>></span>  
+        <div style="border: solid 2px #ddd; background:#f9f9f9;margin-top:-15px;margin-bottom:-15px;">        <span style='color:#696969; '>&lt;!-- Start Atribute Navigation --></span>
+        <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"attr-nav"</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fa fa-facebook"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fa fa-twitter"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fa fa-google-plus"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
+        <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>        
+        <span style='color:#696969; '>&lt;!-- End Atribute Navigation --></span></div>
+        
         <span style='color:#696969; '>&lt;!-- Start Header Navigation --></span>
         <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-header"</span><span style='color:#a65700; '>></span>
             <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>button</span><span style='color:#274796; '> </span><span style='color:#074726; '>type</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"button"</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-toggle"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-toggle</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"collapse"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-</span><span style='color:#074726; '>target</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#navbar-menu"</span><span style='color:#a65700; '>></span>
@@ -196,9 +122,12 @@
 
         <span style='color:#696969; '>&lt;!-- Collect the nav links, forms, and other content for toggling --></span>
         <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"collapse navbar-collapse"</span><span style='color:#274796; '> </span><span style='color:#074726; '>id</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"navbar-menu"</span><span style='color:#a65700; '>></span>
-            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"nav navbar-nav"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-in</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fadeInDown"</span><span style='color:#274796; '> </span><span style='color:#074726; '>data</span><span style='color:#274796; '>-out</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"fadeOutUp"</span><span style='color:#a65700; '>></span>
+            <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#274796; '> </span><span style='color:#074726; '>class</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"nav navbar-nav navbar-center"</span><span style='color:#a65700; '>></span>
                 <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Home<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>                    
-                -- More menu --
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>About Us<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Services<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Portfolio<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
+                <span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#274796; '> </span><span style='color:#074726; '>href</span><span style='color:#808030; '>=</span><span style='color:#0000e6; '>"#"</span><span style='color:#a65700; '>></span>Contact Us<span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>a</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>li</span><span style='color:#a65700; '>></span>
             <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>ul</span><span style='color:#a65700; '>></span>
         <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span><span style='color:#696969; '>&lt;!-- /.navbar-collapse --></span>
     <span style='color:#a65700; '>&lt;/</span><span style='color:#800000; font-weight:bold; '>div</span><span style='color:#a65700; '>></span>   
@@ -230,15 +159,14 @@
     
 	<!-- START JAVASCRIPT -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-    <!-- My Script -->
+    <!-- Bootsnavs -->
     <script src="js/bootsnav.js"></script>
-	<!-- END JAVASCRIPT -->
 
 </body>
 </html>
