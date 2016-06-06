@@ -5,7 +5,7 @@ Bootsnav is a multi purpose header based with Bootstrap, you can build any heade
 CSS files stored in folder 'CSS' and 'skins' (color skins). However, you'd just need to edit the overwrite.css file. It contains the styling elements for all header menu. 
 
 ```
-bootstrap/
+bootsnav/
 ├── css/
 │   ├── bootsnav.css
 │   ├── overwrite.css
