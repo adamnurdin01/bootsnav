@@ -18,7 +18,6 @@ bootsnav/
 ```
 
 ## Credit
-
 Framework Based
 - Bootstrap V.3 - http://getbootstrap.com/
 
@@ -35,3 +34,8 @@ Javascript
 
 CSS
 -  Animate - https://daneden.github.io/animate.css/
+
+## Change Log
+
+### 1.0.1 - 2016-06-11
+- Fixed Navbar sticky

@@ -16,6 +16,15 @@
             var getNav = $("nav.navbar.bootsnav");
             
             // ------------------------------------------------------------------------------ //
+            // Navbar Sticky 
+            // ------------------------------------------------------------------------------ //
+            var navSticky = getNav.hasClass("navbar-sticky");
+            if( navSticky ){
+                // Wraped navigation
+                getNav.wrap("<div class='wrap-sticky'></div>");
+            }   
+            
+            // ------------------------------------------------------------------------------ //
             // Navbar Center 
             // ------------------------------------------------------------------------------ //
             if( getNav.hasClass("brand-center")){                
@@ -176,31 +185,9 @@
                 e.preventDefault();
                 $("nav.navbar.bootsnav > .side").removeClass("on");
                 $("body").removeClass("on-side");
-            });            
+            });  
             
-            // ------------------------------------------------------------------------------ //
-            // Navbat Tabs
-            // ------------------------------------------------------------------------------ //
-            $(".tab-nav li").each(function(){
-                $("a", this).off("click");
-                $("a", this).on("click", function(e){
-                    e.preventDefault();                    
-                    var cek = $(this).closest("li").hasClass("active");
-                    if( cek ){
-                        $("a", this).off("click");
-                    }else{
-                        var getID = $(this).attr("href");
-                        $(".tab-nav li").removeClass("active");
-                        $(this).closest("li").addClass("active");
-                    }
-                });
-            });
             
-            $(".dropdown-tabs .tab-pane").each(function(){
-                var getBG = $(this).data("background");
-                $(this).css("background-image","url('" + getBG +"')");
-                $(this).addClass("animated");
-            });
             
             // ------------------------------------------------------------------------------ //
             // Wrapper
@@ -474,8 +461,6 @@
                 navSticky = getNav.hasClass("navbar-sticky");
             
             if( navSticky ){
-                // Wraped navigation
-                getNav.wrap("<div class='wrap-sticky'></div>");
                 
                 // Set Height Navigation
                 var getHeight = getNav.height();             
