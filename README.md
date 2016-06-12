@@ -37,5 +37,5 @@ CSS
 
 ## Change Log
 
-### 1.0.1 - 2016-06-11
+### v.1.1 - 2016-06-11
 - Fixed Navbar sticky
