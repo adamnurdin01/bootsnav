@@ -557,7 +557,11 @@
     // Reset on resize
     $(window).on("resize", function(){   
         bootsnav.hoverDropdown();
-        bootsnav.navbarSticky(); 
+        
+        $(".top-search").slideUp();
+        setTimeout(function(){
+            bootsnav.navbarSticky();
+        }, 500); 
         
         // Toggle Bars
         $(".navbar-toggle").each(function(){
