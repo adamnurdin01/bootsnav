@@ -278,6 +278,16 @@
                     cleanOpen();
                 });
                 
+                // Toggle Bars
+                $(".navbar-toggle").each(function(){
+                    $(this).off("click");
+                    $(this).on("click", function(){
+                        $(".fa", this).toggleClass("fa-bars");
+                        $(".fa", this).toggleClass("fa-times");
+                        cleanOpen();
+                    });
+                });
+                
                 // Enable click atribute navigation
                 $("nav.navbar.bootsnav .attr-nav").each(function(){  
                     $(".dropdown-menu", this).removeClass("animated");
@@ -299,16 +309,6 @@
                         $(".dropdown-menu", this).stop().fadeOut();
                         $("li.dropdown", this).removeClass("on");
                         return false;
-                    });
-                });
-                
-                // Toggle Bars
-                $(".navbar-toggle").each(function(){
-                    $(this).off("click");
-                    $(this).on("click", function(){
-                        $(".fa", this).toggleClass("fa-bars");
-                        $(".fa", this).toggleClass("fa-times");
-                        cleanOpen();
                     });
                 });
 
