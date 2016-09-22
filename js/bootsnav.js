@@ -170,9 +170,6 @@
             $(".input-group-addon.close-search").on("click", function(){
                 $(".top-search").slideUp();
             });
-            $(".input-group-addon.close-search").on("click", function(){
-                $(".top-search").slideUp();
-            });
             
             // ------------------------------------------------------------------------------ //
             // Toggle Side Menu
