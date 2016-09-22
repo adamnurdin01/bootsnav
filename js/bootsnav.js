@@ -209,7 +209,7 @@
                 getIn = getNav.find("ul.nav").data("in"),
                 getOut = getNav.find("ul.nav").data("out");
             
-            if( getWindow < 981 ){
+            if( getWindow < 992 ){
                 
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", "auto");
@@ -312,7 +312,7 @@
                     });
                 });
 
-            }else if( getWindow > 981 ){
+            }else if( getWindow > 992 ){
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", getHeight + "px");
                 
