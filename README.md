@@ -39,3 +39,4 @@ CSS
 
 ### v.1.1 - 2016-06-11
 - Fixed Navbar sticky
+- Fixed Search on mobile device

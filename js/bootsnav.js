@@ -170,6 +170,9 @@
             $(".input-group-addon.close-search").on("click", function(){
                 $(".top-search").slideUp();
             });
+            $(".input-group-addon.close-search").on("click", function(){
+                $(".top-search").slideUp();
+            });
             
             // ------------------------------------------------------------------------------ //
             // Toggle Side Menu
@@ -558,10 +561,9 @@
     $(window).on("resize", function(){   
         bootsnav.hoverDropdown();
         
-        $(".top-search").slideUp();
         setTimeout(function(){
             bootsnav.navbarSticky();
-        }, 500); 
+        }, 500);
         
         // Toggle Bars
         $(".navbar-toggle").each(function(){
