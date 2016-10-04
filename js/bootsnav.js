@@ -31,9 +31,15 @@
                 var postsArr = new Array(),
                     index = $("nav.brand-center"),
                     $postsList = index.find('ul.navbar-nav');
-
+				
+				index.prepend("<span class='storage-name' style='display:none;'></span>");
+                
                 //Create array of all posts in lists
                 index.find('ul.navbar-nav > li').each(function(){
+					if( $(this).hasClass("active") ){
+						var getElement = $("a", this).eq(0).text();
+						$(".storage-name").html(getElement);
+					}
                     postsArr.push($(this).html());
                 });
                 
@@ -71,7 +77,12 @@
                     dropDown.closest("li").addClass("dropdown");
                     megaMenu.closest("li").addClass("megamenu-fw");
                 });
-            }
+				
+				var getName = $(".storage-name").html();
+				if( !getName == ""  ){
+					$( "ul.navbar-nav > li:contains('" + getName + "')" ).addClass("active");
+				}		
+            } 
             
             
             // ------------------------------------------------------------------------------ //
@@ -206,7 +217,7 @@
                 getIn = getNav.find("ul.nav").data("in"),
                 getOut = getNav.find("ul.nav").data("out");
             
-            if( getWindow < 992 ){
+            if( getWindow < 981 ){
                 
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", "auto");
@@ -309,7 +320,7 @@
                     });
                 });
 
-            }else if( getWindow > 992 ){
+            }else if( getWindow > 981 ){
                 // Height of scroll navigation sidebar
                 $(".scroller").css("height", getHeight + "px");
                 
@@ -557,7 +568,6 @@
     // Reset on resize
     $(window).on("resize", function(){   
         bootsnav.hoverDropdown();
-        
         setTimeout(function(){
             bootsnav.navbarSticky();
         }, 500);
