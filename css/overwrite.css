@@ -106,7 +106,7 @@ ul.cart-list > li.total > .btn{
     padding: 10px 15px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
     /* Navbar General ------*/
     nav.navbar ul.nav > li > a{
         padding: 30px 15px;
