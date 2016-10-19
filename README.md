@@ -10,11 +10,8 @@ CSS files stored in folder 'CSS' and 'skins' (color skins). However, you'd just 
 bootsnav/
 ├── css/
 │   ├── bootsnav.css
-│   ├── overwrite.css
-├── js/
-│   ├── bootsnav.js
-└── skins/
-    └── color.css
+└── js/
+    └── bootsnav.js
 ```
 
 ## Credit
@@ -41,3 +38,6 @@ CSS
 - Fixed Navbar sticky
 - Fixed Search mobile device
 - Fixed Active navigation on brand center
+
+### v.1.2 - 2016-10-19
+- Responsive 991px
