@@ -10,6 +10,7 @@ CSS files stored in folder 'CSS' and 'skins' (color skins). However, you'd just 
 bootsnav/
 ├── css/
 │   ├── bootsnav.css
+│   ├── style.css
 └── js/
     └── bootsnav.js
 ```
