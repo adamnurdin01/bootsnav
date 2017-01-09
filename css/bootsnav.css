@@ -55,6 +55,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     color: #6f6f6f;
     background-color: transparent;
     outline: none;
+    margin-bottom: -2px;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover,
@@ -843,10 +844,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         left: 0;
         padding: 0  0 0 0 !important;
         background: #fff;
-        -moz-box-shadow: 1px 0px 1px 0px #eee;
-        -webkit-box-shadow: 1px 0px 1px 0px #eee;
-        -o-box-shadow: 1px 0px 1px 0px #eee;
-        box-shadow: 1px 0px 1px 0px #eee;
+        border-right: solid 1px #dfdfdf;
     }  
     
     nav.bootsnav.navbar-sidebar .scroller{
@@ -1473,3 +1471,4 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         padding-bottom: 30px;
     }
 }
+
