@@ -55,7 +55,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     color: #6f6f6f;
     background-color: transparent;
     outline: none;
-    margin-bottom: -2.5px;
+    margin-bottom: -2px;
 }
 
 nav.navbar.bootsnav ul.nav li.megamenu-fw > a:hover,
