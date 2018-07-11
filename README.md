@@ -42,3 +42,6 @@ CSS
 
 ### v.1.2 - 2016-10-19
 - Responsive 991px
+
+### Update Bootsnav without css framework
+[Core Navigation](https://corenav.com/)
