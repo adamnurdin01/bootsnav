@@ -44,4 +44,4 @@ CSS
 - Responsive 991px
 
 ### Update Bootsnav without css framework
-[Core Navigation](https://corenav.com/)
+[Core Navigation](http://corenav.anurdin.net/)
